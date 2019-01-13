@@ -20,13 +20,13 @@ public class Alex
     //custom commands
     public static void psing(String msg, MessageChannel channel)
         {
-            if (msg.equals("!psing"))
+            if (msg.equals("@Peter Kim"))
             {
-                //This will send a message, "pong!", by constructing a RestAction and "queueing" the action with the Requester.
+                //This will send a message, "come here daddy", by constructing a RestAction and "queueing" the action with the Requester.
                 // By calling queue(), we send the Request to the Requester which will send it to discord. Using queue() or any
                 // of its different forms will handle ratelimiting for you automatically!
 
-                channel.sendMessage("psong!").queue();
+                channel.sendMessage("come here daddy").queue();
             }
         }
 }
